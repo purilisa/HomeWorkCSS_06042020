@@ -1,0 +1,180 @@
+body {
+    color: #777;
+    background-image: url("../02-Homework/Assets/Images/contemporary_china.jpeg");
+    /* ("../images/contemporary_china.jpeg"); */
+    background-repeat: repeat;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.mx-auto {
+    margin-left: -1rem!important;
+}
+
+.cardimageformat {
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    padding-left: 5rem;
+    position: relative;
+    max-width: 50%;
+}
+
+li a {
+    color: #777;
+    text-decoration: none;
+}
+
+form {
+    padding-right: 20px;
+}
+
+h3formatted {
+    background-color: darkviolet;
+}
+
+.spanborderformat {
+    border-top: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.h6_footerformat {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(92, 94, 89);
+    color: white;
+}
+
+.col alignleft {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+li a:hover {
+    color: #fff;
+    background: #4aaaa5;
+}
+
+html {
+    margin: 0;
+    width: 100%;
+}
+
+.h3formats {
+    position: absolute;
+    background-color: magenta;
+    text-align: center;
+}
+
+.container-ty {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 850px;
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgb(64, 147, 175);
+}
+
+img {
+    border-image-slice: 10% fill 7 12;
+}
+
+.row {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.headingformating {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.text-center {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.navbar {
+    /* position: fixed; */
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.li-border {
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.h1border {
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+div[class^="col-"] {
+    margin: 1 !important;
+    padding: 15px !important;
+    border: solid white 5px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container .img-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    width: 100%;
+    color: #fff;
+    background: rgba(61, 50, 160, 0.87);
+}
