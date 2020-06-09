@@ -1,8 +1,37 @@
+html {
+    min-height: 100vh;
+}
+
 body {
     color: #777;
-    background-image: url("../02-Homework/Assets/Images/contemporary_china.jpeg");
+    background-color: #777;
+    background-image: url("./Images/contemporary_china.jpeg");
     /* ("../images/contemporary_china.jpeg"); */
     background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+}
+
+.main {
+    background-color: white;
+    padding-top: 1rem;
 }
 
 img {
@@ -65,10 +94,10 @@ h3formatted {
 }
 
 footer {
-    position: fixed;
     height: 100px;
-    bottom: 0;
     width: 100%;
+    flex-shrink: 0;
+    margin-top: auto;
 }
 
 li a:hover {
@@ -110,11 +139,16 @@ img {
     padding-left: 20px;
 }
 
+
+/* 
 .headingformating {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bolder;
     border-radius: 5px;
+} */
+
+.header {
+    margin-bottom: 1rem;
 }
 
 .text-center {
@@ -129,7 +163,7 @@ img {
 
 .navbar {
     /* position: fixed; */
-    position: fixed;
+    background-color: white;
     width: 100%;
     border-bottom: 1px solid darkgrey;
     padding-left: 25px;
@@ -154,14 +188,18 @@ img {
     border-bottom-color: red;
 }
 
+
+/* 
 div[class^="col-"] {
     margin: 1 !important;
-    padding: 15px !important;
+    padding: 15px ;
     border: solid white 5px;
-}
+} */
 
 .img-container {
     position: relative;
+    height: 250px;
+    margin: 15px;
 }
 
 .img-container img {
@@ -169,12 +207,18 @@ div[class^="col-"] {
     width: 100%;
 }
 
+.selfportraitimg {
+    max-width: 300px;
+    margin-right: 1.5rem;
+}
+
 .img-container .img-footer {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
-    padding: 0 10px;
-    width: 100%;
+    padding-top: 10px;
+    right: 0;
     color: #fff;
+    text-align: center;
     background: rgba(61, 50, 160, 0.87);
 }
